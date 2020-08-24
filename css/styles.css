@@ -83,6 +83,15 @@ a:hover {
   height: 100%;
 }
 
+.card-link {
+  font-size: 12px;;
+  color: #68AE99;
+}
+
+.card-link:hover {
+  color: #2C7660;
+}
+
 .card:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.15);
   transform: scale(1.01, 1.01);
