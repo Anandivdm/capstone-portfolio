@@ -1,3 +1,4 @@
+let displayWelcomeMessage = document.getElementById('welcome');
 let displayProjects = document.getElementById('projects');
 let projects = [
   {
@@ -55,3 +56,14 @@ let projects = [
   }
 
   generateProjects();
+
+  displayWelcomeMessage.innerHTML =`
+  <p>Welcome to my website! I would love to hear from you, so please reach out if you'd like to chat!</p>
+  <p class="close">Got it</p>
+  `
+
+  displayWelcomeMessage.addEventListener('click', (e) => {
+    if(e.target.classList.contains("close")) {
+      displayWelcomeMessage.style.display = "none";
+    }
+  });
