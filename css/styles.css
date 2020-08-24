@@ -1,0 +1,110 @@
+/* Bootstap Overrides */
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.primary {
+  color: #DCEFE9
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;;
+}
+
+p {
+  color: #505050;
+}
+
+.lead {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.container-fluid {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  opacity: 0.7;
+}
+
+/* Navbar Styling */
+
+.navbar {
+  padding: 0px 24px;
+}
+
+.bg-light {
+  background-color: #DCEFE9!important;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  background: black;
+  padding: 12px;
+}
+
+.jumbotron {
+  background-color: #DCEFE9;
+}
+
+/* About */
+
+.avatar {
+  width: 100px;
+  margin-bottom: 24px;;
+}
+
+.blockquote {
+  line-height: 2rem;
+}
+
+/* Portfolio */
+
+.card {
+  height: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  transform: scale(1.01, 1.01);
+
+}
+
+.languages {
+  font-size: 12px;
+  color: #9a9a9a;
+}
+
+.card-text {
+  color: #505050;
+}
+
+/* Contact */
+
+.social-platforms i {
+  font-size: 22px;
+  padding: 6px;
+}
+
+.social-platforms i:hover {
+  opacity: 0.5;
+}
