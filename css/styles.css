@@ -1,6 +1,6 @@
 /* Bootstap Overrides */
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   position: relative;
 }
 
@@ -10,10 +10,17 @@ body {
 
 h1 {
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 h2 {
-  margin-bottom: 1rem;;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 p {
@@ -24,13 +31,9 @@ p {
   margin-bottom: 2rem;
 }
 
-.btn {
-  border-radius: 0px;
-}
-
 .container {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .container-fluid {
@@ -45,34 +48,40 @@ a {
 a:hover {
   color: black;
   opacity: 0.7;
+  text-decoration: none;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #9a9a9a;
 }
 
 /* Welcome */
 
 #welcome {
   position: absolute;
-  top: 12px;
+  top: 70px;
   right: 12px;
   display: inline-block;
-  width: 300px;
+  width: 280px;
   font-size: 14px;
   z-index: 100;
-  padding: 24px;
+  padding: 16px;
   background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
 
 #welcome p {
   margin-bottom: 0px;
+  position: relative;
 }
 
 #welcome .close {
   font-size: 14px;
-  background-color: black;
-  padding: 6px;
-  color: white;
-  font-weight: 400;
-  float: left;
-  margin-top: 12px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
 }
 
 /* Navbar Styling */
@@ -86,9 +95,11 @@ a:hover {
 }
 
 .navbar-light .navbar-brand {
+  font-size: 18px;
+  border-radius: 0 0 4px 4px;
   color: white;
-  background: black;
-  padding: 12px;
+  background: #2C2C2C;
+  padding: 12px 16px;
 }
 
 .jumbotron {
@@ -112,15 +123,6 @@ a:hover {
   height: 100%;
 }
 
-.card-link {
-  font-size: 12px;;
-  color: #68AE99;
-}
-
-.card-link:hover {
-  color: #2C7660;
-}
-
 .card:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.15);
   transform: scale(1.01, 1.01);
@@ -130,6 +132,7 @@ a:hover {
 .languages {
   font-size: 12px;
   color: #9a9a9a;
+  font-weight: 600;
 }
 
 .card-text {

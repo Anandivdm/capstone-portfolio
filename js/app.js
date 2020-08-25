@@ -41,16 +41,17 @@ let projects = [
       let url = project.url
       html +=
       `<div class="col-12 col-sm-6 col-lg-3 pb-3">
-          <div class="card" target="_blank">
+        <a href="${url}" target="_blank">
+          <div class="card">
             <img src="${image}" class="card-img-top" alt="Photo gallery mockup">
             <div class="card-body">
               <p class="languages">${language}</p>
               <h5 class="card-title">${name}</h5>
               <p class="card-text">${description}</p>
-              <a href="${url}" class="card-link" target="_blank">View Project</a>
             </div>
           </div>
-        </div>`
+        </a>
+      </div>`
     });
     displayProjects.innerHTML = html
   }
@@ -58,8 +59,8 @@ let projects = [
   generateProjects();
 
   displayWelcomeMessage.innerHTML =`
-  <p>Welcome to my website! I would love to hear from you, so please reach out if you'd like to chat!</p>
-  <p class="close">Got it</p>
+  <p>Welcome to my website! Please reach out if you'd like to chat!</p>
+  <i class="fas fa-times close"></i>
   `
 
   displayWelcomeMessage.addEventListener('click', (e) => {
