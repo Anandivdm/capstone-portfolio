@@ -6,28 +6,28 @@ let projects = [
     name: 'Interactive Dashboard',
     languages: 'HTML • CSS • JAVASCRIPT',
     description: 'I built an interactive dashboard for a web application.',
-    url: 'https://dribbble.com/Anandi_Ellis',
+    url: 'https://anandivdm.github.io/web_app_dashboard_v3.1',
   },
   {
     image: 'images/employee-directory.png',
     name: 'Employee Directory',
     languages: 'HTML • CSS • JAVASCRIPT',
     description: 'I created an employee directory by communicating with a third-party API.',
-    url: 'https://dribbble.com/Anandi_Ellis',
+    url: 'https://anandivdm.github.io/Employee-Directory-1',
   },
   {
     image: 'images/game-show.png',
     name: 'Game Show App',
     languages: 'HTML • CSS • JAVASCRIPT',
     description: 'I built a browser version of “Wheel of Success”, a word guessing game.',
-    url: 'https://dribbble.com/Anandi_Ellis',
+    url: 'https://anandivdm.github.io/game_show_app_v1.2-1-',
   },
   {
     image: 'images/photo-gallery.png',
     name: 'Photo Gallery',
     languages: 'HTML • CSS • JAVASCRIPT',
     description: 'I create an interactive, searchable gallery of photos',
-    url: 'https://dribbble.com/Anandi_Ellis',
+    url: 'https://anandivdm.github.io/photo_gallery_v4',
   }
 ];
 
