@@ -69,7 +69,7 @@ a:hover {
   padding: 16px;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
 }
 
 #welcome p {
@@ -124,7 +124,7 @@ a:hover {
 }
 
 .card:hover {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
   transform: scale(1.01, 1.01);
 
 }
