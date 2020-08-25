@@ -26,7 +26,7 @@ let projects = [
     image: 'images/photo-gallery.png',
     name: 'Photo Gallery',
     languages: 'HTML • CSS • JAVASCRIPT',
-    description: 'I create an interactive, searchable gallery of photos',
+    description: 'I created an interactive, searchable gallery of photos.',
     url: 'https://anandivdm.github.io/photo_gallery_v4',
   }
 ];
